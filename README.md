@@ -1,5 +1,5 @@
-# RLvsILthesis
-Repository for the code of my bachelor's thesis - RL vs IL for simulated bipedal locomotion of a humanoid robot
+# Achieving Stable Bipedal Locomotion of a Humanoid Robot using SAC within MuJoCo
+Repository for the code of my bachelor's thesis
 
 ## Explanation:
-ReCode is the folder with the code for the RL part, and ImCode is the folder with the code for the IL part.
+models/ -> best models trained
