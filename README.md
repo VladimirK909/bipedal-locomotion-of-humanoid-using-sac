@@ -3,6 +3,7 @@
 This repository contains an implementation of stable bipedal locomotion control for humanoid robots using the **Soft Actor-Critic (SAC)** algorithm, simulated within the **MuJoCo** physics engine and trained using **Gymnasium** and **Stable Baselines 3**.
 
 ## Table of Contents
+- [Acknowledgements](#acknowledgements)
 - [Overview](#overview)
 - [Features](#features)
 - [Getting Started](#getting-started)
@@ -14,7 +15,11 @@ This repository contains an implementation of stable bipedal locomotion control 
     - [Visually evaluating a Pre-Trained Model](#visually-evaluating-a-pre-trained-model)
     - [Analytically evaluating a Pre-Trained Model](#analytically-evaluating-a-pre-trained-model)
 - [Results](#results)
-- [Acknowledgements](#acknowledgements)
+
+## Acknowledgements
+The project showcased in this repository is part of my Bachelor's Thesis at the Faculty of Electrical Engineering and Information Technologies at the Ss. Cyril and Methodius University in Skopje. Parts of it were also done at the Faculty of Engineering Science at KU Leuven, Belgium.
+
+The resources and services used in this work were provided by the VSC (Flemish Supercomputer Center), funded by the Research Foundation - Flanders (FWO) and the Flemish Government.
 
 ## Overview
 Achieving stable bipedal locomotion (*aka walking with two legs*) is one of the key challenge in controlling a humanoid robot. One approach to solving this problem is to use the **Soft Actor Critic**  RL algorithm, which can be used to train the humanoid robot without the need for "traditional" manual modeling of the robot's dynamics.
@@ -108,8 +113,3 @@ Given the problem definition given above, the best model is `totB9`. It falls do
 All of the parameters for the pre-trained models given here as well as the whole training process for this project can be viewed in this [table](https://docs.google.com/spreadsheets/d/1Sv9nNMe5b_wgv0WtCflXlFYwvArSOIMLqckGoUtySkU/edit?usp=sharing).
 
 That being said, this is just a starting point and introducing more complexity in the simulation environment (for example adding an uneven floor instead of the perfectly flat one used here) will probably make the robot walk more naturaly. What is interesting to note here is that the gait of `TotB9` is similar to how people move in some dances or sports that require fast one-direction locomotion on a flat surface, such as fencing for example.
-
-## Acknowledgements
-The project showcased in this repository is part of my Bachelor's Thesis at the Faculty of Electrical Engineering and Information Technologies at the Ss. Cyril and Methodius University in Skopje. Parts of it were also done at the Faculty of Engineering Science at KU Leuven, Belgium.
-
-The resources and services used in this work were provided by the VSC (Flemish Supercomputer Center), funded by the Research Foundation - Flanders (FWO) and the Flemish Government.
