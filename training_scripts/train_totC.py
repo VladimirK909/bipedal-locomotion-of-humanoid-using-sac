@@ -8,6 +8,8 @@ def train(env, tag, model_dir, log_dir):
     '''
     env - gymnasium environment to be trained on
     tag - name tag for experiment, included in folder names
+    model_dir - directory where the trained models are saved
+    log_dir - directory where the Tensorboard logs are saved
     '''
 
     TIMESTEPS = 25000  # time steps at which model is saved

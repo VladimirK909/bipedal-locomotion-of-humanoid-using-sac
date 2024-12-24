@@ -8,8 +8,9 @@ import argparse
 def train(env, tag, model_dir, log_dir):
     '''
     env - gymnasium environment to be trained on
-    t_lim - specifies how long the training should last in hours
     tag - name tag for experiment, included in folder names
+    model_dir - directory where the trained models are saved
+    log_dir - directory where the Tensorboard logs are saved
     '''
 
     policy_kwargs = dict(net_arch=dict(qf=[256, 256], pi=[512, 512]))
